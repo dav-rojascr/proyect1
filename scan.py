@@ -40,6 +40,7 @@ extension_count_dict = {}
 for element in unique_extensions:
 
     extension_count_dict[element] = extensions.count(element)
+    
 #%% COUNT NUMBER OF CODE LINES WRITTEN IN EACH FILE
 
 answer = input("\nIf all files in this directory are programming scripts, this program is able to count code lines. Please type 'yes' if you want to proceed or 'no' if you want to skip this step: ")
